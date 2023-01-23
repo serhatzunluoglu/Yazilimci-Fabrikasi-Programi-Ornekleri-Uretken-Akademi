@@ -1,0 +1,79 @@
+/* Hesap Makinesi Başlığının Stillendirilmesi */
+h1{
+    width: 391px;
+    border: 5px solid black;
+    text-align: center;
+    background-color:darkcyan;
+    margin: auto;
+    margin-bottom: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+/* Tablo stillendirmesi */
+table{
+    border: 3px solid gray;
+    padding: 5px;
+    width: 400px;
+    height: 280px;
+    margin: auto;
+    z-index: 5;
+    box-shadow: 5px 5px 10px black;
+}
+
+/* Tablo stillendirmesi */
+table tr th{
+    width: 70px;
+    height: 40px;
+    border: 4px solid black;
+    background: gray;
+    transition: all .1s ease-in;
+}
+
+/* Bütün butonların üst elemanı olan thye ulaşarak büyüme animasyonu verme */
+table tr th:hover{
+    transform: scale(1.020);
+}
+
+
+/* Butonların stillendirilmesi */
+button{
+    width: 100%;
+    height: 100%;
+    background: gray;
+    border: none;
+    cursor: pointer;
+    font-family:monospace;
+    font-size: 35px;
+}
+
+
+/* İnputun stillendirilmesi */
+.input{
+    width: 98%;
+    height: 95%;
+    margin-bottom: 1%;
+    border: none;
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* İnputa eklenen büyüme animasyonunu kaldırma */
+.th-input{
+    background-color: white;
+    transform: none !important;
+    transition: none !important;
+}
+
+/* İnputa tıklanıldığında uygulanılacak stiller */
+.input:focus{
+    width: 98%;
+    height: 95%;
+    margin-bottom: 1%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
