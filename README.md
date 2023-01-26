@@ -1,2 +1,1 @@
-# Yazılım-Fabrikası-Programı-Üretken-Akademi-ve-Esenler-Belediyesi
-Yazılım Fabrikası Programında Yaptığım Projeler
+# Yazılım Fabrikası Programı'nda Yaptığım Örnekler(Üretken Akademi ve Esenler Belediyesi)
