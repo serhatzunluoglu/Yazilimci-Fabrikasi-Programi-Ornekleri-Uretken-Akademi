@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6c8c6f72dc.js" crossorigin="anonymous"></script>
+    <link rel="web icon" href="images/logo.jfif">
+    <link rel="stylesheet" href="style.css" />
+    <title>Sayfam</title>
+</head>
+
+<body>
+    <!--Navbar-Start-->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark mt-3 p-2">
+        <a class="navbar-brand ml-5 logo" href="#">Blog Sayfam</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mr-5" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-link mx-2 active" href="#">Anasayfa<span class="sr-only">(current)</span></a>
+                <a class="nav-link mx-2" href="#about-me">Hakkımda</a>
+                <a class="nav-link mx-2" href="#fotolar">Fotoğraflarım</a>
+                <a class="nav-link mx-2" href="#social-medias">Sosyal Medya</a>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar-End-->
+
+    <!--Content-Start-->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 mt-5">
+                <h3>Merhaba 😀</h3>
+                <h3>Bloguma Hoşgeldin 👋🏼</h3>
+                <h3>Ben Serhat İsmail Zunluoğlu</h3> <br>
+                <h4>İlgilendiğim Teknolojiler</h4>
+                <hr>
+                <h4>Html | CSS | Bootstrap | Javascript | React</h4>
+            </div>
+            <div class="col-md-6">
+                <img src="images/code_write.gif" alt="">
+            </div>
+        </div>
+        <div class="row"> 
+            <div class="col-md-4 col-sm-6" style="text-align: center;">
+                <h3>Fotoğraflarım</h3>
+            </div>
+            <div class="col-md-8" style="text-align: center;">
+                <h3 class="d-none d-md-inline-block">Hakkımda</h3>
+            </div>
+        </div>
+        <div class="row mb-5">
+            <div class="col-md-4 mt-2 mb-5" id="fotolar">
+                <div>
+                    <div id="carouselExampleIndicators" class="carousel slide photos" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active" data-interval="2000">
+                            <img src="https://picsum.photos/id/1/300/300/" class="d-block w-100" alt="foto-1">
+                          </div>
+                          <div class="carousel-item" data-interval="2000">
+                            <img src="https://picsum.photos/id/9/300/300" class="d-block w-100" alt="foto-2">
+                          </div>
+                          <div class="carousel-item" data-interval="2000">
+                            <img src="https://picsum.photos/id/7/300/300" class="d-block w-100" alt="foto-3">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Önceki</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only">Sonraki</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-md-8 mt-2 mb-5">
+                <div class="col-12" style="text-align: center;">
+                    <h3 class="d-md-none">Hakkımda</h3>
+                </div>
+                <div class="col-12 box" id="about-me"> 
+                    Necmettin Erbakan Üniversitesinde Bilgisayar Mühendisliği Bölümünde 3. sınıfta okumaktayım. Front-end alanında gelişmeye çalışıyorum ve bu alanda çalışmak istiyorum. Topluluklara katılarak ve kulüplerde aktif rol alarak kendimi geliştirmeye ve tecrübe edinmeye çalışıyorum. Şu anda Üretken Akademinin yürütmekte olduğu Yazılımcı Fabrikası Programına Öğrenci olarak katılmaktayım.     
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Content-End-->
+
+    <!-- Footer-Start-->
+    <footer class="bg-dark text-center text-white mt-5">
+        <div class="container p-4">
+            <section id="social-medias">
+                <a class="btn btn-primary rounded-circle m-1" style="background-color: #55acee" href="https://twitter.com/SerhatZunluoglu" target="_blank"
+                    role="button"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-primary border-danger rounded-circle m-1" style="background-color: #dd4b39" href="mailto:serhatismail12@gmail.com" target="_blank"
+                    role="button"><i class="fab fa-google"></i></a>
+                <a class="btn btn-primary border-primary-emphasis rounded-circle m-1" style="background-color: #ac2bac" href="https://www.instagram.com/serhatzunluoglu/" target="_blank"
+                    role="button"><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-primary rounded-circle m-1" style="background-color: #0082ca" href="https://www.linkedin.com/in/serhatzunluoglu/" target="_blank"
+                    role="button"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-primary rounded-circle border-secondary m-1" style="background-color: #333333" href="https://github.com/serhatzunluoglu" target="_blank"
+                    role="button"><i class="fab fa-github"></i></a>
+            </section>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            Tüm Hakları Saklıdır © 2023 | Developed by 
+            <a class="text-white" target="_blank" href="https://www.linkedin.com/in/serhatzunluoglu/">Serhat Zunluoğlu</a>
+        </div>
+    </footer>
+    <!-- Footer-End-->
+</body>
+
+</html>

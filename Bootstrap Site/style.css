@@ -1,0 +1,46 @@
+.navbar{
+    width: 99%;
+    margin: auto;
+    box-shadow: 5px 5px 20px black;
+}
+
+.logo{
+    font-size: 27px;
+    font-weight: 700;
+    color:black !important;
+    text-shadow: 2px 2px 2px rgb(94, 94, 94);
+}
+
+.logo:hover{
+    font-size: 27px;
+    font-weight: 700;
+    color:gray !important;
+    text-shadow: 2px 2px 2px black;
+}
+
+.box{
+    max-width: 100%;
+    min-height:200px ;
+    max-height: 450px !important;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    text-align: justify;
+    box-shadow: 5px 5px 15px black;
+}
+
+.photos{
+    min-height: 233px !important;
+    min-width: 233px !important;
+    max-width: 300px;
+    max-height: 300px;
+    box-shadow: 5px 5px 15px black;
+}  
+
+.carousel{
+    min-height: 233px !important;
+    min-width: 233px !important;
+    max-width: 270px;
+    max-height: 270px;
+    box-shadow: 5px 5px 15px black;
+}
