@@ -34,3 +34,15 @@ Siteme [buraya](https://serhatzunluoglu-kullanici-listesi.netlify.app/) tıklaya
 Bu projeyi nasıl yaptığımı anlattığım videoya [buradan](https://www.youtube.com/watch?v=Z7Z-Uk2AIEw&ab_channel=SerhatZunluo%C4%9Flu) ulaşabilirsin.
 ![alt text](https://github.com/serhatzunluoglu/Kullanici-Listesi/blob/e5b4414f7d75d875b688bb816b29bd74092e1387/public/images/ss(kullan%C4%B1c%C4%B1%20listesi).png)
 
+7.Hafta Projem :
+
+Siteme [buraya](https://serhatzunluoglu-react-axios-eticaret.netlify.app/) tıklayarak ulaşabilirsin.  
+Bu projeyi nasıl yaptığımı anlattığım videoya [buradan](https://www.youtube.com/watch?v=9GZGOS75o-o&ab_channel=SerhatZunluo%C4%9Flu) ulaşabilirsin.
+![alt text](https://github.com/serhatzunluoglu/7.Hafta-Redux-ve-Axios-Kullanimi-E-Ticaret/blob/85b65c79015357ca3ee2130f753068224ff22c8e/public/images/7.hafts-ss.png)
+
+8.Hafta Projem :
+
+Siteme [buraya](https://serhatzunluoglu-borsa-app.netlify.app/) tıklayarak ulaşabilirsin.  
+Bu projeyi nasıl yaptığımı anlattığım videoya [buradan](https://youtu.be/6UVp96xqz-Y) ulaşabilirsin.
+![alt text](https://github.com/serhatzunluoglu/8.Hafta-Borsa-App/blob/217d6a67a215ed7d33dfb44f1703d4361e5a6e1c/ss.png)
+
